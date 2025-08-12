@@ -18,7 +18,8 @@ def ussd_callback():
         response = "END Invalid option."
 
     return response, 200, {'Content-Type': 'text/plain'}
-
 if __name__ == '__main__':
     app.run()
- USSD backend in Python
+    print("USSD backend in Python")
+
+
